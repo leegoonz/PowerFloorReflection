@@ -1,0 +1,4 @@
+type:ShaderForge.SFN_Transform,id:3259,x:29921,y:30626,varname:node_3259,prsc:2,tffrom:0,tfto:3
+type:ShaderForge.SFN_RemapRange,id:5914,x:30171,y:30704,varname:node_5914,prsc:2,frmn:-1,frmx:1,tomn:0,tomx:1|IN-3259-XYZ
+type:ShaderForge.SFN_Tex2d,id:9772,x:30687,y:30874,ptovrint:False,ptlb:Fresnel Texture,ptin:_FresnelTexture,varname:_FresnelTexture,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:2,isnm:False|UVIN-5974-OUT
+type:ShaderForge.SFN_ComponentMask,id:5974,x:30411,y:30770,varname:node_5974,prsc:2,cc1:0,cc2:1,cc3:-1,cc4:-1|IN-5914-OUT

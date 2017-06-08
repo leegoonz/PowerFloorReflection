@@ -1,0 +1,12 @@
+type:ShaderForge.SFN_NormalVector,id:7119,x:28637,y:28396,prsc:2,pt:True
+type:ShaderForge.SFN_LightVector,id:5177,x:28648,y:28929,varname:node_5177,prsc:2
+type:ShaderForge.SFN_Clamp,id:9388,x:29629,y:28593,varname:node_9388,prsc:2|IN-7744-OUT,MIN-8441-OUT,MAX-4560-OUT
+type:ShaderForge.SFN_Tex2d,id:1976,x:30322,y:28705,varname:node_56,prsc:2,tex:c84e3ff12d093be4b84f183c567c9696,ntxv:0,isnm:False|UVIN-1805-OUT,TEX-7513-TEX
+type:ShaderForge.SFN_Append,id:1805,x:30004,y:28703,varname:node_1805,prsc:1|A-9388-OUT,B-8980-OUT
+type:ShaderForge.SFN_Vector1,id:8980,x:29752,y:28844,varname:node_8980,prsc:2,v1:0
+type:ShaderForge.SFN_Tex2dAsset,id:7513,x:30009,y:28990,ptovrint:True,ptlb:ToonRamp_copy,ptin:_ToonRamp,varname:_ToonRamp,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:c84e3ff12d093be4b84f183c567c9696,ntxv:1,isnm:False
+type:ShaderForge.SFN_Tex2d,id:9761,x:30336,y:29042,ptovrint:False,ptlb:Color Shadow_copy,ptin:_ColorShadow_copy,varname:_ColorShadow_copy,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:2fe0f483b398dd8458d2a90463fcc0e8,ntxv:2,isnm:False
+type:ShaderForge.SFN_Add,id:8513,x:30633,y:28797,varname:node_8513,prsc:2|A-1976-RGB,B-9761-RGB
+type:ShaderForge.SFN_Dot,id:7744,x:29138,y:28595,varname:node_7744,prsc:2,dt:0|A-7119-OUT,B-5177-OUT
+type:ShaderForge.SFN_ValueProperty,id:8441,x:29317,y:28478,ptovrint:False,ptlb:min_copy,ptin:_min_copy,varname:_min_copy,prsc:1,glob:False,taghide:True,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:0.1
+type:ShaderForge.SFN_ValueProperty,id:4560,x:29326,y:28739,ptovrint:False,ptlb:max_copy,ptin:_max_copy,varname:_max_copy,prsc:1,glob:False,taghide:True,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:0.9

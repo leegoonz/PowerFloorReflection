@@ -1,0 +1,5 @@
+type:ShaderForge.SFN_AmbientLight,id:4018,x:31009,y:31333,varname:node_4018,prsc:2
+type:ShaderForge.SFN_Cubemap,id:4267,x:30556,y:31353,ptovrint:False,ptlb:Diffuse Cube,ptin:_DiffuseCube,varname:_DiffuseCube,prsc:1,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,pvfc:0
+type:ShaderForge.SFN_Multiply,id:6287,x:31020,y:31585,varname:node_6287,prsc:2|A-4267-RGB,B-2046-OUT
+type:ShaderForge.SFN_Slider,id:2046,x:30549,y:31581,ptovrint:False,ptlb:Diffuse Cube Scale,ptin:_DiffuseCubeScale,varname:_DiffuseCubeScale,prsc:1,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:1,max:1
+type:ShaderForge.SFN_Add,id:8651,x:31238,y:31456,varname:node_8651,prsc:2|A-4018-RGB,B-6287-OUT
